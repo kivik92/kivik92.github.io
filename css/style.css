@@ -704,6 +704,7 @@ background: #0077ff;
 #why-us .card p {
   font-size: 15px;
   color: #d8eafe;
+  line-height: 1.65;
 }
 
 #why-us .card .readmore {
@@ -712,6 +713,7 @@ background: #0077ff;
   display: inline-block;
   transition: 0.3s ease-in-out;
   border-bottom: #00458f solid 2px;
+  padding:0% 5.5% ;
 }
 
 #why-us .card .readmore:hover {
@@ -727,7 +729,7 @@ background: #0077ff;
   font-weight: bold;
   font-size: 48px;
   display: block;
-  color: #fff;
+  color: #0077ff;
 }
 
 #why-us .counters p {
@@ -735,7 +737,7 @@ background: #0077ff;
   margin: 0 0 20px 0;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
-  color: #cce5ff;
+  color: #1a85ff;
 }
 
 
