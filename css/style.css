@@ -289,8 +289,14 @@ a.btn-services.scrollto.dropdown-toggle:active{
 .main-nav a:hover,
 .main-nav .active > a,
 .main-nav li:hover > a {
-  color: #007bff;
+  color: #0077ff;
   text-decoration: none;
+}
+.main-nav .active > a {
+  border-bottom: #0077ff solid 2px;  /*  Add border boottom to active menu items   */
+}
+.main-nav a:hover{
+  border-bottom: #0077ff solid 2px;  /*  Add border boottom to hover affect menu items   */
 }
 
 .main-nav .drop-down ul {
@@ -694,8 +700,11 @@ background: #0077ff;
   padding-top: 15px;
   padding-bottom: 15px;
   color: #bfddfe;
+  transition: all .3s ease-in-out;
 }
-
+#why-us .card:hover i {
+  transform: scale(1.1); /*   Add scale animation to icons   */
+}
 #why-us .card h5 {
   font-size: 22px;
   font-weight: 600;
@@ -1517,4 +1526,7 @@ transition: 0.3s ease-in-out !important;
 .work-box,
 .card-blog {
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+.dropdown-menu.show{
+  z-index: 100;
 }
