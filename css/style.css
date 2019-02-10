@@ -1086,6 +1086,32 @@ section#portfolio {
 #clients img {
   transition: all 0.4s ease-in-out;
 }
+/* FAQ Sections --------------------*/
+
+#faq {
+  padding: 60px 0;
+  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+}
+.faq-rotage-icon{
+  float: right;
+  color: #004289;
+  -moz-transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+}
+.down > i{
+    -moz-transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+    transform:rotate(180deg);
+}
+.faq-button-style{
+  color: #007bff !important;
+  font-size: 1.15rem;
+  width: 100%;
+  text-align: left; 
+}
+
+/* END FAQ Sections ---------------*/
 
 /* Contact Section
 --------------------------------*/

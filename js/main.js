@@ -118,6 +118,14 @@
     loop: true,
     items: 1
   });
+  $('.faq-button-style').click( function(){
+    if ( $(this).hasClass('down') ) {
+        $(this).removeClass('down');
+    } else {
+        $('.faq-button-style').removeClass('down');
+        $(this).addClass('down');    
+    } 
+})
 
 })(jQuery);
 
