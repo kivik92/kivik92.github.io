@@ -645,6 +645,12 @@ background: #0077ff;
   transition: 0.5s;
 }
 
+i.icon.ion-ios-mail, i.icon.ion-md-call, i.icon.ion-md-heart {
+  font-size: 54px;
+  line-height: 1;
+  transition: 0.5s;
+}
+
 #services .title {
   margin-left: 40px;
   font-weight: 700;
