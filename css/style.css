@@ -358,11 +358,9 @@ a.btn-services.scrollto.dropdown-toggle:active{
   text-decoration: none;
 }
 .main-nav .active > a {
-  border-bottom: #0077ff solid 2px;  /*  Add border boottom to active menu items   */
+  border-bottom: #0077ff solid 3px;  /*  Add border boottom to active menu items   */
 }
-.main-nav a:hover{
-  border-bottom: #0077ff solid 2px;  /*  Add border boottom to hover affect menu items   */
-}
+
 
 .main-nav .drop-down ul {
   display: block;
